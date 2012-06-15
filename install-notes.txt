@@ -1,2 +1,16 @@
 
-These are some basic notes to install the lib onto your machine
+Basically the smtp-faker directory has a following items:
+
+# - A VS 2010 solution
+
+# - SmtpServer class - which is basically a wrapper for firing up smtp sessions and dumping the resulting messages to a txt file
+
+# - SmtpSession class - this is the smtp server session that handles the smtp protocol - gives the correct responses - but since it
+    is a developer version - it does not check for validity of data entered i.e. whether the email addresses are correct etc - just
+    if they have been entered according to the smtp specification
+
+# - A number of helper classes to handle event handling etc
+
+
+All up it allows you to run the app in a terminal and pipe all mail sent to the localhost to a text file for veryification. As time
+passes I might add the ability to dump this to CSV or even a Database.
