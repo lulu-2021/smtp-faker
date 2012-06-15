@@ -1,2 +1,2 @@
 
-These are some basic notes to install the lib
+These are some basic notes to install the lib onto your machine
