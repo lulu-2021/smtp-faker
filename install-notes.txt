@@ -1,0 +1,2 @@
+
+These are some basic notes to install the lib
